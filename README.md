@@ -17,4 +17,4 @@ For generated digits find:
 Of the ten generated numbers, zeros - 7, one - 3. In percent, respectively, 70% / 30%.
 
 
-f
+
