@@ -8,8 +8,8 @@ tokens = ['013e6c64-22c8-4ffe-a084-fc5538d978d6',
           '91977ce9-468c-4ebd-b7e1-c4b633ccb766',
           '32094f29-d015-4454-a3f4-64ef0102f1c8',
           'be76f336-5387-46db-9269-352b4eb588c8']
-# For each of this token allow 250000 bytes per day, so for each key we can get 250k zeros and units
-# Because of limitation in 1 request 10000 bytes i had to put my code in 25 steps loop
+# For each of this token allow 250000 bits per day, so for each key we can get 250k zeros and units
+# Because of limitation in 1 request 10000 bits i had to put my code in 25 steps loop
 # And for 1 million digits this code worked 25*4 times(not so fast,but strictly on assignment)
 for API_TOKEN in tokens:
     response_data = 0
