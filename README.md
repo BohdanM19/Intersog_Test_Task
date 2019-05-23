@@ -1,4 +1,4 @@
-My first test task to company Intersog i`ve passed 17.04.2019
+My first test task to company Intersog in Odessa i`ve passed 17.04.2019
 
 In this task i`ve used my basic knowledge of API and some easy algorithms to pass it
 
