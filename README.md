@@ -1,8 +1,13 @@
 My first test task to company Intersog i`ve passed 17.04.2019
+
 In this task i`ve used my basic knowledge of API and some easy algorithms to pass it
+
 I used Python 3.7 for this task
+
 You needn`t to install additional packages to run this project
+
 But, you should have account on https://api.random.org/dashboard
+
 In the tab "Dashboard" you should generate 4 API Token
 
 
