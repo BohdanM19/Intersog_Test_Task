@@ -1,5 +1,5 @@
 import pickle
-
+# I open file generated in "Get_Integers",check amount of digits, and start to complete my task
 with open("numbers.dat", "rb") as file:
     a = pickle.load(file)
     b = pickle.load(file)
@@ -19,8 +19,8 @@ for i in range(0, len(Test_array)):
         zero += 1
     else:
         one += 1  # end 1 task
-
-    if i != len(Test_array) - 2 and i != len(Test_array) - 1:  # start 2 and 3 task
+    # start 2 and 3 task(first if for second task , second one for third )
+    if i != len(Test_array) - 2 and i != len(Test_array) - 1:  
         three = str(Test_array[i]) + str(Test_array[i + 1]) + str(Test_array[i + 2])
         three = int(three, 2)
         three_numbers[three] += 1
